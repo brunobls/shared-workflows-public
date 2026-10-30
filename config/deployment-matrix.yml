@@ -116,6 +116,7 @@ apps:
     - br-slc
     - br-ccs
     - br-sisbajud
+    - plugin-br-sisbajud          # benedita dev-st/stg-st; SISBAJUD executor plugin (applications/<env>/plugin-br-sisbajud)
     - br-sfn
     - br-spi                      # benedita; SPI/Pix rail of br-sfn (applications/<env>/br-spi), beta tags only
     - br-consignado-gw
@@ -362,6 +363,7 @@ clusters:
       - br-slc
       - br-ccs
       - br-sisbajud
+      - plugin-br-sisbajud
       - br-sfn
       - br-spi
       - br-consignado-gw
